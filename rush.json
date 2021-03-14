@@ -279,13 +279,14 @@
      {
        "packageName": "@rush-test/secret-message",
        "projectFolder": "utils/secret-message",
-       "versionPolicyName": "@rush-test/secret-message"
+        "shouldPublish": true
      },
 
     {
       "packageName": "@rush-test/message-viewer",
       "projectFolder": "app/message-viewer",
-      "versionPolicyName": "@rush-test/message-viewer"
+      "versionPolicyName": "@rush-test/message-viewer",
+      "shouldPublish": true
     }
   ]
 }
