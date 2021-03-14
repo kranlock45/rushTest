@@ -1,5 +1,5 @@
 {
-	"version": "1.0.1",
+	"version": "1.0.6-develop.3",
 	"name": "@rush-test/secret-message",
 	"main": "./lib/secretMessage.min.js",
 	"files": [

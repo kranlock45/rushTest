@@ -12,14 +12,14 @@
   {
     "definitionName": "lockStepVersion",
     "policyName": "@rush-test/secret-message",
-    "version": "1.0.1",
-    "nextBump": "patch"
+    "version": "1.0.6-develop.3",
+    "nextBump": "prerelease"
   },
   {
     "definitionName": "lockStepVersion",
     "policyName": "@rush-test/message-viewer",
-    "version": "1.0.1",
-    "nextBump": "patch"
+    "version": "1.0.6-develop.2",
+    "nextBump": "prerelease"
   }
   // 
   // {

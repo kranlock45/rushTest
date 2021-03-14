@@ -275,18 +275,17 @@
     //   "projectFolder": "libraries/my-controls",
     //   "reviewCategory": "production"
     // },
-    // 
+    //
      {
        "packageName": "@rush-test/secret-message",
        "projectFolder": "utils/secret-message",
-        "shouldPublish": true
+       "versionPolicyName": "@rush-test/secret-message"
      },
 
     {
       "packageName": "@rush-test/message-viewer",
       "projectFolder": "app/message-viewer",
-      "versionPolicyName": "@rush-test/message-viewer",
-      "shouldPublish": true
+      "versionPolicyName": "@rush-test/message-viewer"
     }
   ]
 }

@@ -2,6 +2,47 @@
   "name": "@rush-test/message-viewer",
   "entries": [
     {
+      "version": "1.0.5",
+      "tag": "@rush-test/message-viewer_v1.0.5",
+      "date": "Sun, 14 Mar 2021 22:46:54 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Dependency @rush-test/secret-message version bump from 1.0.3 to 1.0.5."
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.3",
+      "tag": "@rush-test/message-viewer_v1.0.3",
+      "date": "Sun, 14 Mar 2021 22:06:19 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "123"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@rush-test/secret-message\" from `1.0.2` to `1.0.3`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.2",
+      "tag": "@rush-test/message-viewer_v1.0.2",
+      "date": "Sun, 14 Mar 2021 22:03:47 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@rush-test/secret-message\" from `1.0.1` to `1.0.2`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "@rush-test/message-viewer_v1.0.1",
       "date": "Sun, 14 Mar 2021 21:18:55 GMT",
