@@ -1,7 +1,7 @@
 {
 	"name": "@rush-test/message-viewer",
 	"description": "App",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "./lib/app.min.js",
 	"types": "./lib/index.d.ts",
 	"files": [
@@ -89,7 +89,7 @@
 		"react-dom": "17.0.1",
 		"react-router-dom": "5.1.2",
 		"classnames": "2.2.6",
-		"@rush-test/secret-message": "1.0.0"
+		"@rush-test/secret-message": "1.0.1"
 	},
 	"publishConfig": {
 		"registry": "http://sbtatlas.sigma.sbrf.ru/nexus/content/repositories/EFS_thirdparty_npm/"
