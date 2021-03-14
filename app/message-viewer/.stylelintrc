@@ -1,0 +1,7 @@
+{
+	"extends": ["stylelint-config-recommended", "stylelint-config-css-modules"],
+	"rules": {
+		"no-empty-source": null,
+		"no-descending-specificity": null
+	}
+}

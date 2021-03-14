@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"target": "ES2015",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"declaration": true,
+		"allowJs": false,
+		"strict": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strictNullChecks": true,
+		"preserveConstEnums": true,
+		"experimentalDecorators": true,
+		"strictFunctionTypes": false,
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "react",
+		"noImplicitAny": true,
+		"importHelpers": true,
+		"resolveJsonModule": true,
+		"outDir": "lib",
+		"baseUrl": "src",
+		"lib": ["dom", "esnext"]
+	},
+	"filesGlob": ["src/**/*.ts", "src/**/*.tsx"],
+	"exclude": ["**/__tests__", "node_modules", "lib"],
+	"compileOnSave": false,
+	"include": ["src"],
+	"typedocOptions": {
+		"mode": "modules",
+		"out": "docs"
+	}
+}

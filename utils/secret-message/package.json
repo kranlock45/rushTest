@@ -1,0 +1,55 @@
+{
+	"version": "1.0.0",
+	"name": "@rush-test/secret-message",
+	"main": "./lib/secretMessage.min.js",
+	"files": [
+		"lib/"
+	],
+	"private": false,
+	"dependencies": {
+		"ramda": "0.27.1"
+	},
+	"devDependencies": {
+		"@types/ramda": "0.27.34",
+		"@commitlint/cli": "8.3.5",
+		"@commitlint/config-conventional": "8.3.4",
+		"@types/jest": "24.9.1",
+		"@typescript-eslint/eslint-plugin": "^4.5.0",
+		"@typescript-eslint/parser": "^4.5.0",
+		"eslint": "7.12.0",
+		"eslint-config-prettier": "^6.13.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"jest": "26.6.3",
+		"lint-staged": "^10.4.2",
+		"prettier": "2.1.2",
+		"pretty-quick": "2.0.2",
+		"standard-version": "^9.1.0",
+		"ts-jest": "26.4.4",
+		"tslib": "^2.1.0",
+		"typedoc": "^0.20.14",
+		"typescript": "4.1.4",
+		"webpack": "5.24.2",
+		"webpack-cli": "4.5.0",
+		"terser-webpack-plugin": "5.1.1",
+		"ts-loader": "8.0.17"
+	},
+	"scripts": {
+		"build": "node node_modules/webpack/bin/webpack.js --mode=production",
+		"init": "npm i",
+		"tsc": "rm -rf ./lib && tsc --skipLibCheck --pretty",
+		"watch": "npm run cleanBuildFolder && tsc -w",
+		"lint": "eslint 'src/**/*.{ts,tsx}' --quiet --fix",
+		"test": "jest",
+		"testVerbose": "jest --verbose",
+		"updateSnapShot": "jest --updateSnapshot",
+		"watchTests": "jest --watchAll --notify",
+		"cleanBuildFolder": "npm run gulp -- cleanBuildFolder",
+		"preCommit": "npm run tsc --silent && npm run lint --silent && npm run test --silent || true",
+		"reinstall": "rimraf node_modules/* && npm i"
+	},
+	"lint-staged": {
+		"*.{ts,}": [
+			"eslint --fix"
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"extends": "ts-config-single-spa",
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "es6",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"preserveConstEnums": true,
+		"strictFunctionTypes": false,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node",
+		"jsx": "react-jsx",
+		"importHelpers": true,
+		"noEmit": true,
+		"baseUrl": "src",
+		"paths": {
+			"$*": ["*"]
+		}
+	},
+	"compileOnSave": false,
+	"include": ["src"],
+	"exclude": ["node_modules", "build", "public", "scripts", "**/__mocks__"]
+}
